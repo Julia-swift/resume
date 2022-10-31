@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 160px;
   margin-bottom: 80px;
   max-width: auto;
 }
@@ -45,6 +45,23 @@ p {
   justify-content: center;
 }
 
+.nav-item {
+  color: grey;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 20px;
+}
+.navbar-brand {
+  color: grey;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.active {
+  color: var(--primary-color) !important;
+}
+
 .navigation-links a {
   margin: 20px;
 }
@@ -76,6 +93,16 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+}
+.about-section {
+  padding: 50px 60px;
+}
+.about-section h1 {
+  font-size: 64px;
+}
+.about-section img {
+  padding: 0 50px;
+  margin-left: 40px;
 }
 
 .about-paragraphs {
@@ -120,5 +147,29 @@ p {
   }
   p {
     font-size: 14px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section img {
+    margin-top: 30px;
+    float: left;
+    margin-left: 5px;
+  }
+  .about-section h1 {
+    font-size: 34px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 900px) {
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section img {
+    margin-top: 30px;
+    float: left;
+    margin-left: 5px;
   }
 }

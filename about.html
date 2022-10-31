@@ -23,7 +23,9 @@
     <title>About Me - Yuliya Stryzhova</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <nav
+      class="navbar navbar-expand-lg bg-white fixed-top d-flex justify-content-between"
+    >
       <div class="container">
         <a class="navbar-brand" href="/index.html" title="Yuliya Stryzhova"
           >Yuliya Stryzhova</a
@@ -37,8 +39,10 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
+      </div>
+      <div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -55,7 +59,7 @@
                 class="nav-link active"
                 href="/about.html"
                 title="About Yuliya Stryzhova"
-                >About me</a
+                >About</a
               >
             </li>
             <li class="nav-item">
@@ -63,24 +67,49 @@
                 class="nav-link"
                 href="/about.html#contact"
                 title="Contact Yuliya Stryzhova"
-                >Contact me</a
+                >Contact</a
               >
             </li>
           </ul>
         </div>
-      </div>
+      </div>  
     </nav>
-    <h1 class="about-me-header">About Me</h1>
-    <h3>Front-end developer from Cherkasy, Ukraine</h3>
-    <div class="about-paragraphs">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
+    <div class="about-section container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about-section-content">
+            <h1 class="about-me-header">About Me</h1>
+            <h3>Front-end developer from Cherkasy, Ukraine</h3>
+            <div class="about-paragraphs">
+              <p class="mb-2">
+                Hi, I'm Yuliya Stryzhova! I graduated from the Cherkasy State
+                University in 2001 with a degree in Linguistics. I have also a
+                degree in Economics. Recently I decided to change my career. My
+                interests are in Front End Engineering now. I love to create
+                beautiful and performant products with delightful user
+                experiences. Experince has taught me to take accessibility and
+                responsiveness seriously, and I am excited to continue my career
+                as a Front End Junior.
+              </p>
+              <br />
+              <br />
+              <a
+                href="/about.html#contact"
+                class="primary-link about-contact"
+                title="Contact Yuliya Stryzhova"
+                >Contact me</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="/images/julia.jpg" alt="julia" class="img-fluid rounded" />
+        </div>
+      </div>
     </div>
-    <div class="container">
+
+    <div class="container mt-1">
       <div class="row">
         <div class="col-sm-4">
           <img
